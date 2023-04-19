@@ -24,6 +24,6 @@ public class Provider {
     @Column
     private Date registration_date;
 
-    @Column
-    private int client_id;
+    @Column(name = "client_id")
+    private int clientId;
 }
