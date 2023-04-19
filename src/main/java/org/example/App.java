@@ -1,13 +1,31 @@
 package org.example;
 
+import org.example.Executer.ExecuteExercise;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
- * Hello world!
+ * test ibm!
  *
  */
-public class App 
+@EnableAutoConfiguration
+@SpringBootApplication
+public class App implements CommandLineRunner
 {
+   @Autowired
+   private ExecuteExercise exerciseExecutor;
+
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        SpringApplication.run(App.class, args);
+    }
+
+    @Override
+    public void run(String... args) {
+        boolean operation_status =exerciseExecutor.run(args);
+        System.out.println("Operation Status:"+ operation_status);
     }
 }
