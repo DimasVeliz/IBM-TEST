@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32ca2bcd-6029-4fc3-822c-ae80f4119f0e" name="Changes" comment="ConsoleParserServiceImpl now can save to file and parse the client_id">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Executer/ExecuteExercise.java" afterDir="false" />
+    <list default="true" id="32ca2bcd-6029-4fc3-822c-ae80f4119f0e" name="Changes" comment="App extends command line runner to execute the app, TODO: test and README.md description">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Entities/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Entities/Provider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Repositories/IProviderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Repositories/IProviderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Services/Impl/ProviderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Services/Impl/ProviderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Executer/ExecuteExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Executer/ExecuteExercise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +156,42 @@
       <option name="project" value="LOCAL" />
       <updated>1681924637756</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Repository annotation added for autowiring">
+      <created>1681924730580</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681924730580</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Renaming convention for column name">
+      <created>1681924757493</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681924757493</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Renaming convention for column name">
+      <created>1681924799220</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681924799220</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ExecuteExercise class created to handle exercise logic">
+      <created>1681924952945</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681924952945</updated>
+    </task>
+    <task id="LOCAL-00015" summary="App extends command line runner to execute the app, TODO: test and README.md description">
+      <created>1681925034044</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681925034044</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,20 +215,19 @@
     <MESSAGE value="SQL properties" />
     <MESSAGE value="AppConfig to enable scan of jpa's repository bean creation" />
     <MESSAGE value="ConsoleParserServiceImpl now can save to file and parse the client_id" />
-    <option name="LAST_COMMIT_MESSAGE" value="ConsoleParserServiceImpl now can save to file and parse the client_id" />
+    <MESSAGE value="Repository annotation added for autowiring" />
+    <MESSAGE value="Renaming convention for column name" />
+    <MESSAGE value="ExecuteExercise class created to handle exercise logic" />
+    <MESSAGE value="App extends command line runner to execute the app, TODO: test and README.md description" />
+    <option name="LAST_COMMIT_MESSAGE" value="App extends command line runner to execute the app, TODO: test and README.md description" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Executer/ExecuteExercise.java</url>
-          <line>26</line>
+          <line>22</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -21,6 +21,7 @@ public class ExecuteExercise {
     public boolean run(String []args){
 
         int client_id = consoleParserService.resolveClientId(args);
+        if(client_id==-1) return false;
         List<ProviderDto> response= providerService.getProviderByClientId(client_id);
         return consoleParserService.saveToFile(response);
     }
